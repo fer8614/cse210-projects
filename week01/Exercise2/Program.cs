@@ -79,5 +79,15 @@ class Program
         {
             Console.WriteLine("You don't have grade");
         }
+        if (number >= 70)
+        {
+            Console.WriteLine("You passed!");
+        }
+        else
+        {
+            Console.WriteLine("Better luck next time!");
+        }
+
     }
+
 }
