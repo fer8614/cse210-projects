@@ -14,7 +14,6 @@ class Program
         do
         {
             int magicNumber = randomNumber.Next(1, 101);
-            Console.Write(magicNumber);
             int guessNumber = -1;
             int attempts = 0;
             Console.WriteLine("what is your guess?");
