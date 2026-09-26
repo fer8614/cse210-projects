@@ -13,14 +13,5 @@ class Program
 
         Console.WriteLine($"Your name is {last}, {first} {last}.");
 
-        int[] edades = { 20, 35, 50 };
-        int total = 0;
-
-        for (int indice = 0; indice < edades.Length; indice++)
-        {
-            total += edades.;
-        }
-        Console.WriteLine($"La suma total es {total}");
-
     }
 }
